@@ -6,8 +6,8 @@ export default {
   input: './src/index.js',
   output: {
     format: 'umd',
-    name: 'htmlParser',
-    file: 'dist/umd/htmlParser.js',
+    name: 'windTemplateCompiler',
+    file: 'dist/umd/windTemplateCompiler.js',
     sourceMap: true,
   },
   plugins: [

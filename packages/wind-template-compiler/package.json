@@ -12,7 +12,8 @@
     "rollup-plugin-serve": "^1.0.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rollup -c -w",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
